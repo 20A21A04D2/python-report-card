@@ -1,0 +1,13 @@
+name=input("student name:")
+rollno=input("register no:")
+marks1=int(input("enter the marks:")) 
+marks2=int(input("enter the marks:")) 
+marks3=int(input("enter the marks:")) 
+if(marks1>40) and(marks2>35) and(marks3>40) :
+  print("pass") 
+  total=marks1+ marks2+marks3
+  print(total, "/300") 
+else:
+  print("fail")
+  total=marks1+ marks2+marks3
+  print(total, "/300")
